@@ -38,7 +38,7 @@ I’m adding **one new component every day** to stay consistent and help others 
 
 ## 🃏 Animated Card Preview
 
-![Animated Card Demo](Animated-Card/demo.gif)
+![Animated Card Demo](./Animated-Card/demo.gif)
 
 
 
