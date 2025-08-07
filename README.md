@@ -29,7 +29,7 @@ I’m adding **one new component every day** to stay consistent and help others 
 
 1. Clone this repo or download the specific component folder you need:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Website-UI-Components.git
+    git clone https://github.com/manasranjanjena68/Website-UI-Components.git
     ```
 2. Navigate to the component folder you want.
 3. Open the `index.html` file in your browser or include the HTML & CSS in your project.
