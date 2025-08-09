@@ -10,11 +10,11 @@ I’m adding **one new component every day** to stay consistent and help others 
 
 ## 📌 Purpose of This Repository
 
-✅ Build a library of website UI components  
-✅ Make website development faster with plug-and-play elements  
-✅ Improve my own frontend skills through daily practice  
+✅ Build a library of website UI components. 
+✅ Make website development faster with plug-and-play elements. 
+✅ Improve my own frontend skills through daily practice.  
 ✅ Keep my GitHub commit streak alive!  
-✅ Help beginners learn by example
+✅ Help beginners learn by example.
 
 ---
 
