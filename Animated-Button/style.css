@@ -1,0 +1,115 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: scale(1.9);
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+}
+
+.btn::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.btn::before {
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #540D6E, #EE4266, #FFD23F, #3BCEAC,
+        #0EAD69, #FF785A, #FF785A, #C492B1
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+@keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+}
+
+/* hover */
+.btn:hover::before {
+    opacity: 1;
+}
+
+.btn:active::after {
+    background: transparent;
+}
+
+.btn:active {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Blue Button */
+.btn-blue::before {
+    background: linear-gradient(
+        45deg,
+        #1E3A8A, #3B82F6, #60A5FA, #93C5FD,
+        #DBEAFE, #1D4ED8, #2563EB, #1E40AF
+    );
+    background-size: 600%;
+    animation: glowing 20s linear infinite;
+}
+
+/* Red Button */
+.btn-red::before {
+    background: linear-gradient(
+        45deg,
+        #DC2626, #EF4444, #F87171, #FCA5A5,
+        #FECACA, #B91C1C, #DC2626, #991B1B
+    );
+    background-size: 600%;
+    animation: glowing 20s linear infinite;
+}
+
+/* Green Button */
+.btn-green::before {
+    background: linear-gradient(
+        45deg,
+        #059669, #10B981, #34D399, #6EE7B7,
+        #A7F3D0, #047857, #065F46, #064E3B
+    );
+    background-size: 600%;
+    animation: glowing 20s linear infinite;
+}
