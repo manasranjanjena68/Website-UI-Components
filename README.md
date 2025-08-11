@@ -47,5 +47,7 @@ I’m adding **one new component every day** to stay consistent and help others 
 ![Animated Button Demo](./Animated-Button/Animated%20Button%20-%20Google%20Chrome%202025-08-10%2021-51-07%20(online-video-cutter.com).gif)
 
 
+## 🃏 Animated Navbar Preview
+
 
 
