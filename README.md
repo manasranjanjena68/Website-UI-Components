@@ -49,6 +49,5 @@ I’m adding **one new component every day** to stay consistent and help others 
 
 ## 🃏 Animated Navbar Preview
 
-<video src="./Animated-Navbar/Animated navbar.mp4" width="600" controls></video>
-
+![Animated Navbar Demo](./Animated-Navbar/Animated%20navbar.gif)
 
