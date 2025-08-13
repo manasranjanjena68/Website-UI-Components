@@ -62,4 +62,4 @@ I’m adding **one new component every day** to stay consistent and help others 
 
 ## 🃏 Animated Testimonial Section Preview
 
-![Animated Testimonial Section Demo]()
+![Animated Testimonial Section Demo](./Animated-Testimonial-Section/Testimonial-section.gif)
