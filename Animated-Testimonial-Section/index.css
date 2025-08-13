@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #e3f2fd;
+  --text-dark: #222;
+  --text-light: #555;
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section__container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.section__container h1 {
+  position: relative;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.section__container h1::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 5rem;
+  background-color: var(--primary-color);
+}
+
+.section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.section__card {
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 1.5rem 2rem;
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(76, 175, 80, 0.08);
+  transition:
+    transform 0.3s cubic-bezier(.4, 2, .6, 1),
+    box-shadow 0.3s;
+  animation: fadeInUp 0.7s ease;
+  border: 1px solid #c8e6c9;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section__card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(76, 175, 80, 0.18);
+}
+
+.section__card::before {
+  display: none;
+}
+
+.section__card span {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.section__card h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  letter-spacing: 0.5px;
+}
+
+.section__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.section__card img {
+  margin-bottom: 1rem;
+  max-width: 72px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.08);
+  transition:
+    box-shadow 0.3s,
+    border-color 0.3s;
+}
+
+.section__card:hover img {
+  box-shadow: 0 4px 16px rgba(76, 175, 80, 0.18);
+  border-color: #388e3c;
+}
+
+.section__card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #388e3c;
+  margin-bottom: 0.2rem;
+}
+
+.section__card h6 {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
