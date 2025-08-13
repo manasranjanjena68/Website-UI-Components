@@ -27,6 +27,7 @@ I’m adding **one new component every day** to stay consistent and help others 
 - ✅ Animated Card
 - ✅ Animated Button
 - ✅ Animated Navbar
+- ✅ Animated Testimonial Section(Style - Made with AI)
 
 - ⏳ (Daily updates — new components will appear here!)
 
@@ -58,3 +59,7 @@ I’m adding **one new component every day** to stay consistent and help others 
 
 ![Animated Navbar Demo](./Animated-Navbar/Animated%20navbar.gif)
 
+
+## 🃏 Animated Testimonial Section Preview
+
+![Animated Testimonial Section Demo]()
