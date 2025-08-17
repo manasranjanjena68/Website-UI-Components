@@ -6,7 +6,7 @@ This repository includes elements like buttons, cards, navbars, forms, websites 
 
 I’m adding **one new component every day** to stay consistent and help others easily find ready-to-use website building blocks.
 
----      
+---         
 
 ## 📌 Purpose of This Repository
   
